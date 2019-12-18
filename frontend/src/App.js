@@ -42,7 +42,7 @@ class App extends Component {
                 <div className="container-fluid">
                   <div className="page-1-content">
                     <p className="page-1-p">안녕하세요!</p>
-                    <h1>풀스택 개발자 <strong>성기동</strong>의 포트폴리오 웹사이트입니다.</h1>
+                    <h1>5년차 풀스택 개발자 <strong>성기동</strong>의 포트폴리오 웹사이트입니다.</h1>
                     <p><a className="btn btn-dark" href="https://github.com/sgd122/portfolio-react" role="button" target="_blank">
                       <span className="fa fa-github" aria-hidden="true"></span>
                       &nbsp; Github</a></p>
