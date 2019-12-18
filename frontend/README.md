@@ -1,7 +1,7 @@
 # Portfolio-React
 React로 만든 개인 portfolio 사이트  
 
-## [웹사이트](https://th-portfolio.firebaseapp.com/)
+## [웹사이트](ec2-13-209-21-146.ap-northeast-2.compute.amazonaws.com/)
 
 ---
 
