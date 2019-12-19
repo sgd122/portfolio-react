@@ -32,7 +32,7 @@ class App extends Component {
           orientation="vertical"
           totalSlides={6}
           step={1}
-          touchEnabled={false}
+          touchEnabled={true}
         >
           <Slider>
             <Slide index={0}>
