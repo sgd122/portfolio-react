@@ -12,14 +12,6 @@ portfolio 사이트
 
 > create-react-app `<app name>`
 
-<!-- - 배포를 위한 Firebase 세팅
-
-> npm install -g firebase-tools
-
-> firebase login
-
-> firebase init   -->
-
 #### 활용 기술
 
 - React
