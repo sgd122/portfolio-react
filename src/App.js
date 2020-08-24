@@ -1,20 +1,17 @@
 import React from "react";
-import "./App.css";
-import "./css/SassComponent.scss";
+import HeaderPage from "./pages/Header";
+import MainPage from "./pages/Main";
+import Page2 from "./pages/Page2";
+import "./styles/App.css";
+import "./styles/SassComponent.scss";
+import styles from "./styles/common.module.scss";
 
 function App() {
   return (
     <div className="App">
-      <div className="container bg">테스트</div>
-      <div className="SassComponent">
-        <div className="box red" />
-        <div className="box orange" />
-        <div className="box yellow" />
-        <div className="box green" />
-        <div className="box blue" />
-        <div className="box indigo" />
-        <div className="box violet" />
-      </div>
+      <HeaderPage />
+      <MainPage />
+      <Page2 />
     </div>
   );
 }
