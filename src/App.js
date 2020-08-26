@@ -7,7 +7,6 @@ import Page2 from "./pages/Page2";
 import Skill from "./pages/Skill";
 
 //* Styles
-import "./styles/App.css";
 import "./styles/SassComponent.scss";
 import "./styles/common.module.scss";
 
