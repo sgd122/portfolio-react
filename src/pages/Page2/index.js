@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 // import { ButtonBack, ButtonNext } from "pure-react-carousel";
 import Typed from "typed.js";
+import Avatar from "../../components/Avatar";
 
 class Page2 extends Component {
   componentDidMount() {
     const options = {
-      strings: ["Python", "Django", "Java", "Spring", "React", "JavaScript"],
+      strings: ["Django", "Java", "React.JS", "React Native"],
       typeSpeed: 150,
       startDelay: 500,
       backSpeed: 100,
@@ -20,20 +21,26 @@ class Page2 extends Component {
   }
   render() {
     return (
-      <div className="page-2">
-        <div className="container-fluid">
-          <div className="page-2-content">
-            <h4 className="page-2-h4">
-              저는 &nbsp;
-              <strong
-                id="typed"
-                style={{ whiteSpace: "pre" }}
-                ref={(el) => {
-                  this.el = el;
-                }}
-              ></strong>
-              할 줄 아는 <strong></strong> 개발자입니다.
-            </h4>
+      <div className="container">
+        <div className="page-2">
+          <div className="container-fluid">
+            <div className="page-2-content">
+              <Avatar type="Django" />
+              <Avatar type="Java" />
+              <h4 className="page-2-h4">
+                저는 &nbsp;
+                <strong
+                  id="typed"
+                  style={{ whiteSpace: "pre" }}
+                  ref={(el) => {
+                    this.el = el;
+                  }}
+                ></strong>
+                <br />할 줄 아는 <strong></strong> 개발자입니다.
+              </h4>
+              <Avatar type="React" />
+              <Avatar type="ReactNative" />
+            </div>
           </div>
         </div>
       </div>
