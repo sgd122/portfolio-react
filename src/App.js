@@ -1,11 +1,15 @@
 import React from "react";
+
+//* SubPage
 import HeaderPage from "./pages/Header";
 import MainPage from "./pages/Main";
 import Page2 from "./pages/Page2";
 import Skill from "./pages/Skill";
+
+//* Styles
 import "./styles/App.css";
 import "./styles/SassComponent.scss";
-import styles from "./styles/common.module.scss";
+import "./styles/common.module.scss";
 
 function App() {
   return (
